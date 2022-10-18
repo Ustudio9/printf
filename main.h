@@ -75,6 +75,6 @@ int _putchar(char c);
 
 int _printf(const char *format, ...);
 
-
+int printf_unsigned(va_list args)  
 
 #endif
