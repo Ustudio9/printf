@@ -14,6 +14,7 @@ int _printf(const char * const format, ...)
 		{"%o", printf_oct}, {"%x", printf_hex}, {"%X", printf_HEX},
 		{"%S", printf_exclusive_string}, {"%p", printf_pointer}
 	};
+
 	va_list args;
 	int i = 0, j, len = 0;
 
